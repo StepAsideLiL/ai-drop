@@ -4,7 +4,9 @@ import React from "react";
 const HomePage = () => {
   return (
     <SMain>
-      <h1>hello</h1>
+      <div className="">
+        <h1 className="text-9xl">hello</h1>
+      </div>
     </SMain>
   );
 };
