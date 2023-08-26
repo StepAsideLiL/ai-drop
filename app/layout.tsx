@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "AI Drop",
-  description: "All your AI related Tools and Software.",
+  description: "All your AI related Tools and Softwares.",
 };
 
 export default function RootLayout({
