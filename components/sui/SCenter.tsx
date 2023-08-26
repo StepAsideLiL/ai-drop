@@ -11,7 +11,7 @@ const SCenter = ({
   as?: string;
 }) => {
   const styleClasses = clsx(
-    "flex items-center gap-3",
+    "flex items-center gap-3 h-full",
     between ? "justify-between" : "justify-center"
   );
 

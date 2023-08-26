@@ -1,11 +1,26 @@
+import HomeBanner from "@/components/pages/home/HomeBanner";
 import SMain from "@/components/sui/SMain";
 import React from "react";
 
 const HomePage = () => {
   return (
     <SMain>
-      <div className="">
-        <h1 className="text-9xl">hello</h1>
+      <div className="container mx-auto max-w-7xl">
+        <HomeBanner />
+
+        <div className="h-96"></div>
+        <div className="h-96"></div>
+        <div className="h-96"></div>
+        <div className="h-96"></div>
+        <div className="h-96"></div>
+        <div className="h-96"></div>
+        <div className="h-96"></div>
+        <div className="h-96"></div>
+        <div className="h-96"></div>
+        <div className="h-96"></div>
+        <div className="h-96"></div>
+        <div className="h-96"></div>
+        <div className="h-96"></div>
       </div>
     </SMain>
   );
