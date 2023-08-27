@@ -48,7 +48,7 @@ const ActiveLink = ({
       <Link
         href={href}
         className={clsx(
-          "py-1 hover:border-b-2 hover:border-b-black dark:border-b-white font-medium transition-all duration-100",
+          "py-1 hover:border-b-2 hover:border-b-black dark:border-b-white font-medium",
           active && "border-b-2 border-b-black dark:border-b-white"
         )}
       >
