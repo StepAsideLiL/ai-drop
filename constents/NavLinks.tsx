@@ -4,6 +4,10 @@ export const navLinkLists = [
     link: "/tools",
   },
   {
+    title: "Models",
+    link: "/models",
+  },
+  {
     title: "Features",
     link: "/features",
   },

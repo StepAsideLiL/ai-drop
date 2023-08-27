@@ -7,7 +7,7 @@ import nplIcon from "@/assets/images/features/natural-language-processing.svg";
 
 const FeaturesOverview = () => {
   return (
-    <section className="py-28 space-y-7">
+    <section className="pt-28 space-y-7">
       <h1 className="text-xl font-bold text-center">Features</h1>
 
       <div className="container grid grid-cols-1 gap-2 mx-auto md:grid-cols-3 max-w-7xl">
@@ -41,7 +41,7 @@ const FeaturesOverview = () => {
               </AspectRatio>
             </div>
 
-            <h1 className="text-2xl">Personalize AI model</h1>
+            <h1 className="text-2xl">Personalize AI Models</h1>
 
             <p>Personalize AI Model for your workflow and productivity</p>
           </CardContent>
