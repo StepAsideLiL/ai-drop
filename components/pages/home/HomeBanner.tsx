@@ -4,7 +4,7 @@ import React from "react";
 
 const HomeBanner = () => {
   return (
-    <section className="py-28">
+    <section className="container mx-auto max-w-7xl py-28">
       <SCenter>
         <div className="text-center space-y-7">
           <h1 className="text-4xl font-bold md:text-8xl">
