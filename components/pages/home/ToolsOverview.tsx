@@ -1,28 +1,30 @@
-import { motion } from "framer-motion";
-import { useRef } from "react";
+"use client";
+
 import { ImageGenerationCard, toolsDetails } from "./parts/ToolsCards";
 import ToolsContentInView from "./parts/ToolsContentInView";
 
 const ToolsOverview = () => {
   return (
     <section className="pt-28">
-      {/* <div className="container mx-auto max-w-7xl"> */}
-      <div className="">
+      <h1 className="text-xl font-bold text-center">Tools</h1>
+
+      <div className="container mx-auto max-w-7xl">
         <div className="flex items-start w-full gap-20">
-          <div className="w-full pl-10 space-y-64 py-96">
-            {toolsDetails.map((item, index) => (
-              <ToolsContentInView key={index}>
+          <div className="w-full space-y-64 py-72">
+            {toolsDetails.map((item) => (
+              <ToolsContentInView key={item.id} id={item.id}>
                 <h1 className="text-5xl font-bold">{item.title}</h1>
                 <p className="text-3xl">{item.description}</p>
               </ToolsContentInView>
             ))}
           </div>
 
-          <div className="sticky top-0 flex items-center w-full h-screen">
-            {/* {toolsDetails.map((item, index) => (
-              <div key={index}>{item.card()}</div>
-            ))} */}
-            <ImageGenerationCard />
+          <div className="sticky top-0 w-full h-screen pt-40">
+            <div className="relative w-full">
+              {toolsDetails.map((item) => (
+                <item.card key={item.id} id={item.id} />
+              ))}
+            </div>
           </div>
         </div>
       </div>
